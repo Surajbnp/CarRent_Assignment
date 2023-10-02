@@ -11,8 +11,6 @@
 - npm run json-server ( for starting the JSON Server )
 
 # Homepage 
-### (Desktop Responsive)
 ![home](https://imgur.com/iOEeDd6.png)
 
-### (Mobile Responsive)
 ![home](https://imgur.com/QoTiAIV.png)
