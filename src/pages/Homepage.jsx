@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import style from "../styles/homepage.module.css";
 import { useSelector, useDispatch } from "react-redux";
+import { useNavigate } from "react-router-dom";
 import getCar from "../redux/action";
 import CarCard from "../components/CarCard";
 import { AiFillCaretLeft, AiFillCaretRight } from "react-icons/ai";
@@ -8,6 +9,7 @@ import { AiFillCaretLeft, AiFillCaretRight } from "react-icons/ai";
 const Homepage = () => {
   const Cars = useSelector((state) => state?.cars);
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 6;
   const startIndex = (currentPage - 1) * itemsPerPage;
@@ -21,6 +23,7 @@ const Homepage = () => {
   const nextPage = () => {
     if (currentPage < totalPages) {
       setCurrentPage((prev) => prev + 1);
+      navigate(`/page/${currentPage}`);
     }
   };
 
@@ -29,6 +32,7 @@ const Homepage = () => {
   const prevPage = () => {
     if (currentPage !== 1) {
       setCurrentPage((prev) => prev - 1);
+      navigate(`/page/${currentPage}`);
     }
   };
 
@@ -44,7 +48,10 @@ const Homepage = () => {
           className={`${
             i === currentPage ? style.activePage : style.notactive
           }`}
-          onClick={() => setCurrentPage(i)}
+          onClick={() => {
+            setCurrentPage(i);
+            navigate(`/page/${i}`);
+          }}
         >
           {i}
         </button>
@@ -53,10 +60,11 @@ const Homepage = () => {
     return buttons;
   };
 
-// fetching data from JSON server using redux
+  // fetching data from JSON server using redux
 
   useEffect(() => {
     dispatch(getCar());
+    navigate(`/page/${currentPage}`)
   }, []);
 
   let filteredCars = Cars?.filter((car) =>

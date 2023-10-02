@@ -5,7 +5,8 @@ import Homepage from './Homepage'
 const AllRoutes = () => {
   return (
     <Routes>
-        <Route path='/' element={<Homepage />} />
+        <Route path='/' exact element={<Homepage />} />
+        <Route path='/page/:pagenumber'  element={<Homepage />} />
     </Routes>
   )
 }
