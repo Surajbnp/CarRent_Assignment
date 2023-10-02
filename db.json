@@ -208,6 +208,127 @@
       "fuel_type": "Electric",
       "rent_price": "$80 per day",
       "model_year": 2023
+    },
+    {
+      "id": 20,
+      "image": "https://cdni.autocarindia.com/ExtraImages/20220422060657_Toyota_Camry_front_action_1.jpg",
+      "name": "Toyota Camry",
+      "mileage": "12.0 km/l",
+      "type": "Sedan",
+      "seating_capacity": 5,
+      "fuel_type": "Gasoline",
+      "rent_price": "$50 per day",
+      "model_year": 2022
+    },
+    {
+      "id": 21,
+      "image": "https://rushlane.com/wp-content/uploads/2022/05/2023-honda-crv-suv-india-launch-price-specs-1-600x338.jpg",
+      "name": "Honda CR-V",
+      "mileage": "12.8 km/l",
+      "type": "SUV",
+      "seating_capacity": 5,
+      "fuel_type": "Gasoline",
+      "rent_price": "$60 per day",
+      "model_year": 2021
+    },
+    {
+      "id": 22,
+      "image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20210204035447_Ford_Raptor_lead_1.jpg&w=700&q=90&c=1",
+      "name": "Ford F-150",
+      "mileage": "8.8 km/l",
+      "type": "Truck",
+      "seating_capacity": 6,
+      "fuel_type": "Gasoline",
+      "rent_price": "$70 per day",
+      "model_year": 2020
+    },
+    {
+      "id": 23,
+      "image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20230901023724_Tesla.png&w=700&q=90&c=1",
+      "name": "Tesla Model 3",
+      "mileage": "Electric",
+      "type": "Electric",
+      "seating_capacity": 5,
+      "fuel_type": "Electric",
+      "rent_price": "$80 per day",
+      "model_year": 2023
+    },
+    {
+      "id": 24,
+      "image": "https://di-uploads-pod34.dealerinspire.com/vancechevroletbuickgmc/uploads/2021/04/2020-silverado-1500-trail-boss-mov.jpg",
+      "name": "Chevrolet Silverado",
+      "mileage": "8.5 km/l",
+      "type": "Truck",
+      "seating_capacity": 6,
+      "fuel_type": "Gasoline",
+      "rent_price": "$75 per day",
+      "model_year": 2021
+    },
+    {
+      "id": 25,
+      "image": "https://media.ed.edmunds-media.com/nissan/altima/2023/oem/2023_nissan_altima_sedan_vc-t-sr_fq_oem_1_1280.jpg",
+      "name": "Nissan Altima",
+      "mileage": "11.5 km/l",
+      "type": "Sedan",
+      "seating_capacity": 5,
+      "fuel_type": "Gasoline",
+      "rent_price": "$55 per day",
+      "model_year": 2022
+    },
+    {
+      "id": 26,
+      "image": "https://stimg.cardekho.com/images/carexteriorimages/930x620/BMW/X5-2023/10452/1688992642182/front-left-side-47.jpg",
+      "name": "BMW X5",
+      "mileage": "10.2 km/l",
+      "type": "SUV",
+      "seating_capacity": 5,
+      "fuel_type": "Gasoline",
+      "rent_price": "$85 per day",
+      "model_year": 2021
+    },
+    {
+      "id": 27,
+      "image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/Galleries/20220713052927_Hyundai%20Tucson%203.jpg&w=736&h=488&q=75&c=1",
+      "name": "Hyundai Tucson",
+      "mileage": "12.3 km/l",
+      "type": "SUV",
+      "seating_capacity": 5,
+      "fuel_type": "Gasoline",
+      "rent_price": "$65 per day",
+      "model_year": 2022
+    },
+    {
+      "id": 28,
+      "image": "https://stimg.cardekho.com/images/carexteriorimages/930x620/Jeep/Wrangler/10944/1690625250497/front-left-side-47.jpg",
+      "name": "Jeep Wrangler",
+      "mileage": "7.7 km/l",
+      "type": "SUV",
+      "seating_capacity": 4,
+      "fuel_type": "Gasoline",
+      "rent_price": "$70 per day",
+      "model_year": 2021
+    },
+    {
+      "id": 29,
+      "image": "https://images.hindustantimes.com/auto/img/2022/05/05/1600x900/Kia_soul_1651722299929_1651722312393.jpg",
+      "name": "Kia Soul",
+      "mileage": "13.2 km/l",
+      "type": "Hatchback",
+      "seating_capacity": 5,
+      "fuel_type": "Gasoline",
+      "rent_price": "$45 per day",
+      "model_year": 2023
+    },
+    {
+      "id": 30,
+      "image": "https://www.team-bhp.com/sites/default/files/styles/check_high_res/public/2023-lexus-rx-001.jpg",
+      "name": "Lexus RX",
+      "mileage": "10.6 km/l",
+      "type": "SUV",
+      "seating_capacity": 5,
+      "fuel_type": "Hybrid",
+      "rent_price": "$75 per day",
+      "model_year": 2022
     }
   ]
 }

@@ -37,15 +37,15 @@
   justify-content: space-between;
 }
 
-.name > p{
-    font-size: 20px;
-    font-weight: bold;
+.name > p {
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.name div{
-    border: 1px dashed #43B0F1;
-    border-radius: 8px;
-    padding: 3px;
+.name div {
+  border: 1px dashed #43b0f1;
+  border-radius: 8px;
+  padding: 3px;
 }
 
 .specifications {
@@ -54,38 +54,43 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
-.specifications > div{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px;
-    color: #43B0F1;
+.specifications > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  color: #43b0f1;
 }
 
-.specifications p{
-    color: black;
+.specifications p {
+  color: black;
 }
 
-.rate{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 20px;
+.rate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
 }
 
-.rate button{
-    font-size: 14px;
-    font-weight: 600;
-    color: white;
-    background-color: #43B0F1;
-    width: 100px;
-    height: 40px;
-    border-radius: 15px;
-    outline: none;
-    border: none;
+.rate button {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  background-color: #43b0f1;
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  transition: 0.1s;
 }
 
-.rate button:hover{
-   background-color: #73c7f8;
-   cursor: pointer;
+.rate button:hover {
+  background-color: white;
+  outline: 2px solid #43b0f1;
+  font-weight: 400;
+  color: black;
+  cursor: pointer;
 }
+
