@@ -97,7 +97,7 @@ const Homepage = () => {
         )}
       </div>
       <div className={style.pagination}>
-        <div className={style.pages}>Total Page</div>
+        <div className={style.pages}>{`Total Page : ${totalPages}`}</div>
         <div className={style.paginationDiv}>
           <button onClick={prevPage}>{<AiFillCaretLeft />}</button>
           {generatePaginationButtons()}
